@@ -1,14 +1,18 @@
+using MoviePro.Models.Settings;
+
 namespace MoviePro
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+            IConfiguration _configuration = null;
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.Configure<AppSettings>(_configuration.GetSection("AppSettings"));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
