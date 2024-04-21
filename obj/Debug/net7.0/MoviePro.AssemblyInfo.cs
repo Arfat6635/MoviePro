@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoviePro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b9847aed797d24c7df5c7727bbe815f2eda9c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b35915815d854e34b22d4eda15c0771414449c6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoviePro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoviePro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
