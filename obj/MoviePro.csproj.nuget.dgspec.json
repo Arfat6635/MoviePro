@@ -1,32 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASPNETCORE\\source\\repos\\MoviePro\\MoviePro.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\MoviePro\\MoviePro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASPNETCORE\\source\\repos\\MoviePro\\MoviePro.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\MoviePro\\MoviePro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASPNETCORE\\source\\repos\\MoviePro\\MoviePro.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\MoviePro\\MoviePro.csproj",
         "projectName": "MoviePro",
-        "projectPath": "C:\\Users\\ASPNETCORE\\source\\repos\\MoviePro\\MoviePro.csproj",
-        "packagesPath": "C:\\Users\\ASPNETCORE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASPNETCORE\\source\\repos\\MoviePro\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\MoviePro\\MoviePro.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\MoviePro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASPNETCORE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,11 +35,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -82,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

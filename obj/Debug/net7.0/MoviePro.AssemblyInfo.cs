@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoviePro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b35915815d854e34b22d4eda15c0771414449c6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a4c7fa208669aa32f12689eeda411edb202d5f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoviePro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoviePro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
